@@ -21,3 +21,6 @@ console.log("Total count :",totalCount,"Type is :" ,typeof totalCount);
 totalCount = 107;
 console.log("Updated total count is :", totalCount,"Type is :",typeof totalCount);
 
+var a = null;
+console.log("Null type of a:" ,typeof a);
+
