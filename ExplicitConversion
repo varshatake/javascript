@@ -1,0 +1,58 @@
+// String TO Number
+var result;
+
+console.log(`..String to Number ..`);
+result = Number('324');
+console.log(`Result --> ${result}`);
+
+result = Number(324e-1);
+console.log(`Result --> ${result}`);
+console.log(`.................................................................`);
+
+//  Boolean TO Number
+console.log(`...Boolean To Number.....`);
+
+result = Number(true);
+console.log(`Result --> ${result}`);
+
+result = Number(false);
+console.log(`Result --> ${result}`);
+console.log(`..................................................................`);
+
+// invalid string to number gives NaN
+console.log(`Invalid String like "farande" to Number `);
+
+result = Number("hello");
+console.log(`Result --> ${result}`);
+
+result = Number('jayshree');
+console.log(`Result --> ${result}`);
+
+result = Number(undefined);
+console.log(`Result --> ${result}`);
+
+result = Number(NaN);
+console.log(`Result --> ${result}`);
+
+console.log(`..Null..`);
+result = Number(null);
+console.log(`Result --> ${result}`);
+console.log(`..................................................................`);
+
+//Explicit conversion: string to number using + operator
+console.log(`Explicit conversion: string to number using + operator`);
+
+var numInString = "100";
+var ans;
+
+console.log(typeof numInString);
+
+ans = +numInString;
+console.log(typeof ans);
+console.log(`...........................................................`);
+
+console.log(`Explicit conversion: Number To string `);
+var no =100;
+console.log(typeof no);
+ans = no.toString();
+console.log(typeof ans);
