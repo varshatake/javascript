@@ -51,3 +51,6 @@ arrayAbh.sort();
 console.log(arrayAbh);
 
 
+array.sort();
+console.log(array);
+
