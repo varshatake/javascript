@@ -1,0 +1,19 @@
+//In closure 3 chain accessibility to access variable
+// 1. Global variable
+// 2. Outer fun variable
+// 3. Inner function variable
+
+var globalVar = 'Hello';
+
+function outerFunction() {
+    let outerFunVar = 'Good';
+    let innerFunction = function() {
+        let ineerFunVar = 'Morning';
+        console.log(`Global Variable i.e. declared outside function :`,globalVar);
+        console.log(`Outer function variable declared in outer function :`,outerFunVar);
+        console.log(`Inner function variable declared inside ineer function :`,ineerFunVar);
+    }
+    return innerFunction();  
+}
+let result = outerFunction();
+//result();

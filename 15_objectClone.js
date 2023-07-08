@@ -55,3 +55,11 @@ person.address.street = "Hinjewadi Road";
 console.log(person.address.street );
 console.log("Cloned Object ");
 console.log(deepClonedPerson.address.street );
+
+
+const person = {
+    name: "elon",
+    age: 45
+}
+const deepcloneanswer = JSON.parse(JSON.stringify(person));
+console.log(deepcloneanswer);

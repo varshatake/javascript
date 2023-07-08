@@ -34,11 +34,6 @@
 
 // JavaScript = J a v a S c r  i  p  t
 var str = "JavaScript"; // 9
-// for (let index = 0; index < str.length; index++) { // 0  1   2
-//      var char = str.charAt(index); // J  a v
-//      console.log(char); 
-// }
-
 for (let index = str.length-1; index >=0; index--) { // 0  1   2
     var char = str.charAt(index); // J  a v
     console.log(char); 
